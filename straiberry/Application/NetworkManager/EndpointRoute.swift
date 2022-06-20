@@ -35,7 +35,9 @@ extension EndpointRoute: EndpointOption {
         default:
             return ["Content-Type": "application/json",
                     "auth":"" ]
+//            return ["Content-Type": "application/json","Authorization": "Bearer \(StorageUtils.getToken() ?? "")",]
         }
+        
     }
     public var params: Parameters {
         switch self {
