@@ -19,6 +19,11 @@
 		D41CBCAD28608232001337B8 /* straiberryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCAC28608232001337B8 /* straiberryTests.swift */; };
 		D41CBCB728608232001337B8 /* straiberryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCB628608232001337B8 /* straiberryUITests.swift */; };
 		D41CBCB928608232001337B8 /* straiberryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCB828608232001337B8 /* straiberryUITestsLaunchTests.swift */; };
+		D41CBCC82860B185001337B8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCC72860B185001337B8 /* Coordinator.swift */; };
+		D41CBCCD2860B2EC001337B8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCCC2860B2EC001337B8 /* AppCoordinator.swift */; };
+		D41CBCD12860B359001337B8 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCD02860B359001337B8 /* HomeCoordinator.swift */; };
+		D41CBCD32860B438001337B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCD22860B438001337B8 /* HomeViewController.swift */; };
+		D41CBCD52860B45F001337B8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCD42860B45F001337B8 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,11 @@
 		D41CBCB228608232001337B8 /* straiberryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = straiberryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41CBCB628608232001337B8 /* straiberryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = straiberryUITests.swift; sourceTree = "<group>"; };
 		D41CBCB828608232001337B8 /* straiberryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = straiberryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D41CBCC72860B185001337B8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D41CBCCC2860B2EC001337B8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D41CBCD02860B359001337B8 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		D41CBCD22860B438001337B8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D41CBCD42860B45F001337B8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		E2DB62BDDBAC8251BA9E67B2 /* Pods_straiberry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_straiberry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE9C8D08C1D2ABDA9C27DDA /* Pods-straiberry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-straiberry.release.xcconfig"; path = "Target Support Files/Pods-straiberry/Pods-straiberry.release.xcconfig"; sourceTree = "<group>"; };
 		EE768116EB298F9F854866F4 /* Pods_straiberryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_straiberryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +136,8 @@
 		D41CBC9428608231001337B8 /* straiberry */ = {
 			isa = PBXGroup;
 			children = (
+				D41CBCC92860B2D1001337B8 /* Application */,
+				D41CBCC52860B16C001337B8 /* UI */,
 				D41CBC9528608231001337B8 /* AppDelegate.swift */,
 				D41CBC9728608231001337B8 /* SceneDelegate.swift */,
 				D41CBC9928608231001337B8 /* ViewController.swift */,
@@ -154,6 +166,65 @@
 			path = straiberryUITests;
 			sourceTree = "<group>";
 		};
+		D41CBCC52860B16C001337B8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D41CBCCE2860B341001337B8 /* Sence */,
+				D41CBCC62860B17A001337B8 /* Base */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D41CBCC62860B17A001337B8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D41CBCC72860B185001337B8 /* Coordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D41CBCC92860B2D1001337B8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D41CBCCA2860B2DA001337B8 /* Navigation */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D41CBCCA2860B2DA001337B8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				D41CBCCB2860B2E6001337B8 /* Coordinator */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		D41CBCCB2860B2E6001337B8 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D41CBCCC2860B2EC001337B8 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D41CBCCE2860B341001337B8 /* Sence */ = {
+			isa = PBXGroup;
+			children = (
+				D41CBCCF2860B34D001337B8 /* Home */,
+			);
+			path = Sence;
+			sourceTree = "<group>";
+		};
+		D41CBCCF2860B34D001337B8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D41CBCD02860B359001337B8 /* HomeCoordinator.swift */,
+				D41CBCD22860B438001337B8 /* HomeViewController.swift */,
+				D41CBCD42860B45F001337B8 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		DCA271A1861D683CA33ED501 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +235,6 @@
 				059D12E464E5D7D23E6A3759 /* Pods-straiberryTests.debug.xcconfig */,
 				A50ED68F20E5680571AE8E01 /* Pods-straiberryTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,8 +477,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41CBCCD2860B2EC001337B8 /* AppCoordinator.swift in Sources */,
+				D41CBCD12860B359001337B8 /* HomeCoordinator.swift in Sources */,
 				D41CBC9A28608231001337B8 /* ViewController.swift in Sources */,
+				D41CBCD52860B45F001337B8 /* HomeViewModel.swift in Sources */,
+				D41CBCC82860B185001337B8 /* Coordinator.swift in Sources */,
 				D41CBC9628608231001337B8 /* AppDelegate.swift in Sources */,
+				D41CBCD32860B438001337B8 /* HomeViewController.swift in Sources */,
 				D41CBC9828608231001337B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

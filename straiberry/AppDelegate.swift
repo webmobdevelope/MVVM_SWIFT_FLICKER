@@ -10,10 +10,13 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
+    var appCoordinator: AppCoordinator!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let appCoordinator=getAppCoordinator()
+        appCoordinator.start()
         return true
     }
 
@@ -30,7 +33,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
+    
+    func getAppCoordinator() -> AppCoordinator{
+        if let a=appCoordinator{
+            return a
+        }
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        appCoordinator = AppCoordinator(in: window!)
+        return appCoordinator
+    }
 
 }
 
