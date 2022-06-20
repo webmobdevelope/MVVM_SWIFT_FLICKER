@@ -12,8 +12,6 @@
 		B0CC0FA96F7413BEBAC62C67 /* Pods_straiberryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE768116EB298F9F854866F4 /* Pods_straiberryTests.framework */; };
 		D41CBC9628608231001337B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBC9528608231001337B8 /* AppDelegate.swift */; };
 		D41CBC9828608231001337B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBC9728608231001337B8 /* SceneDelegate.swift */; };
-		D41CBC9A28608231001337B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBC9928608231001337B8 /* ViewController.swift */; };
-		D41CBC9D28608231001337B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41CBC9B28608231001337B8 /* Main.storyboard */; };
 		D41CBC9F28608232001337B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41CBC9E28608232001337B8 /* Assets.xcassets */; };
 		D41CBCA228608232001337B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41CBCA028608232001337B8 /* LaunchScreen.storyboard */; };
 		D41CBCAD28608232001337B8 /* straiberryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCAC28608232001337B8 /* straiberryTests.swift */; };
@@ -24,6 +22,12 @@
 		D41CBCD12860B359001337B8 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCD02860B359001337B8 /* HomeCoordinator.swift */; };
 		D41CBCD32860B438001337B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCD22860B438001337B8 /* HomeViewController.swift */; };
 		D41CBCD52860B45F001337B8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCD42860B45F001337B8 /* HomeViewModel.swift */; };
+		D41CBCD82860BA7D001337B8 /* EndpointOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCD72860BA7D001337B8 /* EndpointOption.swift */; };
+		D41CBCDA2860BAAE001337B8 /* EndpointRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCD92860BAAE001337B8 /* EndpointRoute.swift */; };
+		D41CBCDC2860BABF001337B8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCDB2860BABF001337B8 /* NetworkManager.swift */; };
+		D41CBCDF2860E52C001337B8 /* PhotoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCDE2860E52C001337B8 /* PhotoList.swift */; };
+		D41CBCE22860ED37001337B8 /* FileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCE12860ED37001337B8 /* FileListView.swift */; };
+		D41CBCE42860F918001337B8 /* NetworkImageMannager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBCE32860F918001337B8 /* NetworkImageMannager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +55,6 @@
 		D41CBC9228608231001337B8 /* straiberry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = straiberry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41CBC9528608231001337B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D41CBC9728608231001337B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D41CBC9928608231001337B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D41CBC9C28608231001337B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D41CBC9E28608232001337B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D41CBCA128608232001337B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D41CBCA328608232001337B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +68,12 @@
 		D41CBCD02860B359001337B8 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		D41CBCD22860B438001337B8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D41CBCD42860B45F001337B8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D41CBCD72860BA7D001337B8 /* EndpointOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointOption.swift; sourceTree = "<group>"; };
+		D41CBCD92860BAAE001337B8 /* EndpointRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointRoute.swift; sourceTree = "<group>"; };
+		D41CBCDB2860BABF001337B8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D41CBCDE2860E52C001337B8 /* PhotoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoList.swift; sourceTree = "<group>"; };
+		D41CBCE12860ED37001337B8 /* FileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileListView.swift; sourceTree = "<group>"; };
+		D41CBCE32860F918001337B8 /* NetworkImageMannager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageMannager.swift; sourceTree = "<group>"; };
 		E2DB62BDDBAC8251BA9E67B2 /* Pods_straiberry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_straiberry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE9C8D08C1D2ABDA9C27DDA /* Pods-straiberry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-straiberry.release.xcconfig"; path = "Target Support Files/Pods-straiberry/Pods-straiberry.release.xcconfig"; sourceTree = "<group>"; };
 		EE768116EB298F9F854866F4 /* Pods_straiberryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_straiberryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,10 +146,6 @@
 			children = (
 				D41CBCC92860B2D1001337B8 /* Application */,
 				D41CBCC52860B16C001337B8 /* UI */,
-				D41CBC9528608231001337B8 /* AppDelegate.swift */,
-				D41CBC9728608231001337B8 /* SceneDelegate.swift */,
-				D41CBC9928608231001337B8 /* ViewController.swift */,
-				D41CBC9B28608231001337B8 /* Main.storyboard */,
 				D41CBC9E28608232001337B8 /* Assets.xcassets */,
 				D41CBCA028608232001337B8 /* LaunchScreen.storyboard */,
 				D41CBCA328608232001337B8 /* Info.plist */,
@@ -169,6 +173,7 @@
 		D41CBCC52860B16C001337B8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D41CBCDD2860E51D001337B8 /* Models */,
 				D41CBCCE2860B341001337B8 /* Sence */,
 				D41CBCC62860B17A001337B8 /* Base */,
 			);
@@ -186,6 +191,9 @@
 		D41CBCC92860B2D1001337B8 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				D41CBCD62860BA6F001337B8 /* NetworkManager */,
+				D41CBC9528608231001337B8 /* AppDelegate.swift */,
+				D41CBC9728608231001337B8 /* SceneDelegate.swift */,
 				D41CBCCA2860B2DA001337B8 /* Navigation */,
 			);
 			path = Application;
@@ -218,11 +226,39 @@
 		D41CBCCF2860B34D001337B8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D41CBCE02860ED29001337B8 /* view */,
 				D41CBCD02860B359001337B8 /* HomeCoordinator.swift */,
 				D41CBCD22860B438001337B8 /* HomeViewController.swift */,
 				D41CBCD42860B45F001337B8 /* HomeViewModel.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		D41CBCD62860BA6F001337B8 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				D41CBCD72860BA7D001337B8 /* EndpointOption.swift */,
+				D41CBCD92860BAAE001337B8 /* EndpointRoute.swift */,
+				D41CBCDB2860BABF001337B8 /* NetworkManager.swift */,
+				D41CBCE32860F918001337B8 /* NetworkImageMannager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		D41CBCDD2860E51D001337B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D41CBCDE2860E52C001337B8 /* PhotoList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D41CBCE02860ED29001337B8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D41CBCE12860ED37001337B8 /* FileListView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		DCA271A1861D683CA33ED501 /* Pods */ = {
@@ -349,7 +385,6 @@
 			files = (
 				D41CBCA228608232001337B8 /* LaunchScreen.storyboard in Resources */,
 				D41CBC9F28608232001337B8 /* Assets.xcassets in Resources */,
-				D41CBC9D28608231001337B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,12 +512,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41CBCDF2860E52C001337B8 /* PhotoList.swift in Sources */,
+				D41CBCE42860F918001337B8 /* NetworkImageMannager.swift in Sources */,
 				D41CBCCD2860B2EC001337B8 /* AppCoordinator.swift in Sources */,
 				D41CBCD12860B359001337B8 /* HomeCoordinator.swift in Sources */,
-				D41CBC9A28608231001337B8 /* ViewController.swift in Sources */,
+				D41CBCDC2860BABF001337B8 /* NetworkManager.swift in Sources */,
 				D41CBCD52860B45F001337B8 /* HomeViewModel.swift in Sources */,
 				D41CBCC82860B185001337B8 /* Coordinator.swift in Sources */,
 				D41CBC9628608231001337B8 /* AppDelegate.swift in Sources */,
+				D41CBCDA2860BAAE001337B8 /* EndpointRoute.swift in Sources */,
+				D41CBCE22860ED37001337B8 /* FileListView.swift in Sources */,
+				D41CBCD82860BA7D001337B8 /* EndpointOption.swift in Sources */,
 				D41CBCD32860B438001337B8 /* HomeViewController.swift in Sources */,
 				D41CBC9828608231001337B8 /* SceneDelegate.swift in Sources */,
 			);
@@ -521,14 +561,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D41CBC9B28608231001337B8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D41CBC9C28608231001337B8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D41CBCA028608232001337B8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -667,7 +699,7 @@
 				INFOPLIST_FILE = straiberry/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -696,7 +728,7 @@
 				INFOPLIST_FILE = straiberry/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

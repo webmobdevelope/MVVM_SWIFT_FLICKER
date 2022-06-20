@@ -7,6 +7,7 @@ target 'straiberry' do
 
   # Pods for straiberry
   pod 'Alamofire'
+  pod 'Kingfisher'
   target 'straiberryTests' do
     inherit! :search_paths
     # Pods for testing
