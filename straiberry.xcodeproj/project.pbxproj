@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0D3DC7AC7AAA4205985035 /* Pods_straiberry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB62BDDBAC8251BA9E67B2 /* Pods_straiberry.framework */; };
+		714FDFAA32F8E87C6C343729 /* Pods_straiberry_straiberryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAF80BD4BB10DF9DE0A23FB /* Pods_straiberry_straiberryUITests.framework */; };
+		B0CC0FA96F7413BEBAC62C67 /* Pods_straiberryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE768116EB298F9F854866F4 /* Pods_straiberryTests.framework */; };
 		D41CBC9628608231001337B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBC9528608231001337B8 /* AppDelegate.swift */; };
 		D41CBC9828608231001337B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBC9728608231001337B8 /* SceneDelegate.swift */; };
 		D41CBC9A28608231001337B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBC9928608231001337B8 /* ViewController.swift */; };
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		059D12E464E5D7D23E6A3759 /* Pods-straiberryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-straiberryTests.debug.xcconfig"; path = "Target Support Files/Pods-straiberryTests/Pods-straiberryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AFDDD930976253D21E8A969 /* Pods-straiberry-straiberryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-straiberry-straiberryUITests.release.xcconfig"; path = "Target Support Files/Pods-straiberry-straiberryUITests/Pods-straiberry-straiberryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6621F519A7B671F52A08234B /* Pods-straiberry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-straiberry.debug.xcconfig"; path = "Target Support Files/Pods-straiberry/Pods-straiberry.debug.xcconfig"; sourceTree = "<group>"; };
+		A50ED68F20E5680571AE8E01 /* Pods-straiberryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-straiberryTests.release.xcconfig"; path = "Target Support Files/Pods-straiberryTests/Pods-straiberryTests.release.xcconfig"; sourceTree = "<group>"; };
 		D41CBC9228608231001337B8 /* straiberry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = straiberry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41CBC9528608231001337B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D41CBC9728608231001337B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		D41CBCB228608232001337B8 /* straiberryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = straiberryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41CBCB628608232001337B8 /* straiberryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = straiberryUITests.swift; sourceTree = "<group>"; };
 		D41CBCB828608232001337B8 /* straiberryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = straiberryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2DB62BDDBAC8251BA9E67B2 /* Pods_straiberry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_straiberry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE9C8D08C1D2ABDA9C27DDA /* Pods-straiberry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-straiberry.release.xcconfig"; path = "Target Support Files/Pods-straiberry/Pods-straiberry.release.xcconfig"; sourceTree = "<group>"; };
+		EE768116EB298F9F854866F4 /* Pods_straiberryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_straiberryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69F55B7D98E7C72A2E2D4A2 /* Pods-straiberry-straiberryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-straiberry-straiberryUITests.debug.xcconfig"; path = "Target Support Files/Pods-straiberry-straiberryUITests/Pods-straiberry-straiberryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFAF80BD4BB10DF9DE0A23FB /* Pods_straiberry_straiberryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_straiberry_straiberryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0D3DC7AC7AAA4205985035 /* Pods_straiberry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CC0FA96F7413BEBAC62C67 /* Pods_straiberryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				714FDFAA32F8E87C6C343729 /* Pods_straiberry_straiberryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1DC2BB3C72C996D6F3CDF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2DB62BDDBAC8251BA9E67B2 /* Pods_straiberry.framework */,
+				FFAF80BD4BB10DF9DE0A23FB /* Pods_straiberry_straiberryUITests.framework */,
+				EE768116EB298F9F854866F4 /* Pods_straiberryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D41CBC8928608231001337B8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				D41CBCAB28608232001337B8 /* straiberryTests */,
 				D41CBCB528608232001337B8 /* straiberryUITests */,
 				D41CBC9328608231001337B8 /* Products */,
+				DCA271A1861D683CA33ED501 /* Pods */,
+				0A1DC2BB3C72C996D6F3CDF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,20 @@
 			path = straiberryUITests;
 			sourceTree = "<group>";
 		};
+		DCA271A1861D683CA33ED501 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6621F519A7B671F52A08234B /* Pods-straiberry.debug.xcconfig */,
+				EAE9C8D08C1D2ABDA9C27DDA /* Pods-straiberry.release.xcconfig */,
+				F69F55B7D98E7C72A2E2D4A2 /* Pods-straiberry-straiberryUITests.debug.xcconfig */,
+				4AFDDD930976253D21E8A969 /* Pods-straiberry-straiberryUITests.release.xcconfig */,
+				059D12E464E5D7D23E6A3759 /* Pods-straiberryTests.debug.xcconfig */,
+				A50ED68F20E5680571AE8E01 /* Pods-straiberryTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D41CBCBC28608232001337B8 /* Build configuration list for PBXNativeTarget "straiberry" */;
 			buildPhases = (
+				BD6A2714C1A1DC718FE01468 /* [CP] Check Pods Manifest.lock */,
 				D41CBC8E28608231001337B8 /* Sources */,
 				D41CBC8F28608231001337B8 /* Frameworks */,
 				D41CBC9028608231001337B8 /* Resources */,
+				02DDBF691F7C4856B7BF92F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D41CBCBF28608232001337B8 /* Build configuration list for PBXNativeTarget "straiberryTests" */;
 			buildPhases = (
+				06EB14CD9B182996D7CDA8AB /* [CP] Check Pods Manifest.lock */,
 				D41CBCA428608232001337B8 /* Sources */,
 				D41CBCA528608232001337B8 /* Frameworks */,
 				D41CBCA628608232001337B8 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D41CBCC228608232001337B8 /* Build configuration list for PBXNativeTarget "straiberryUITests" */;
 			buildPhases = (
+				B3838BBF5FD5DA1CD0325BAD /* [CP] Check Pods Manifest.lock */,
 				D41CBCAE28608232001337B8 /* Sources */,
 				D41CBCAF28608232001337B8 /* Frameworks */,
 				D41CBCB028608232001337B8 /* Resources */,
+				C720273456CAE827CED097E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02DDBF691F7C4856B7BF92F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-straiberry/Pods-straiberry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-straiberry/Pods-straiberry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-straiberry/Pods-straiberry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06EB14CD9B182996D7CDA8AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-straiberryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3838BBF5FD5DA1CD0325BAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-straiberry-straiberryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD6A2714C1A1DC718FE01468 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-straiberry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C720273456CAE827CED097E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-straiberry-straiberryUITests/Pods-straiberry-straiberryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-straiberry-straiberryUITests/Pods-straiberry-straiberryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-straiberry-straiberryUITests/Pods-straiberry-straiberryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D41CBC8E28608231001337B8 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		D41CBCBD28608232001337B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6621F519A7B671F52A08234B /* Pods-straiberry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +610,7 @@
 		};
 		D41CBCBE28608232001337B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE9C8D08C1D2ABDA9C27DDA /* Pods-straiberry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		D41CBCC028608232001337B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059D12E464E5D7D23E6A3759 /* Pods-straiberryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +660,7 @@
 		};
 		D41CBCC128608232001337B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50ED68F20E5680571AE8E01 /* Pods-straiberryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +681,7 @@
 		};
 		D41CBCC328608232001337B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69F55B7D98E7C72A2E2D4A2 /* Pods-straiberry-straiberryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +700,7 @@
 		};
 		D41CBCC428608232001337B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFDDD930976253D21E8A969 /* Pods-straiberry-straiberryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
